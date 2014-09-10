@@ -12,13 +12,14 @@ module.exports = function(config) {
     frameworks: ['jasmine', 'requirejs', 'traceur'],
 
     preprocessors: {
-      '**/*.es6': ['traceur']
+      'src/**/*.js': ['traceur'],
+      'test/**/*Spec.js': ['traceur']
     },
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: 'src/**/*.es6', included: false},
-      {pattern: 'test/**/*Spec.es6', included: false},
+      {pattern: 'src/**/*.js', included: false},
+      {pattern: 'test/**/*Spec.js', included: false},
       'test/test-main.js'
     ],
 
