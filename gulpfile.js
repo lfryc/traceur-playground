@@ -10,7 +10,7 @@ gulp.task('default', ['traceur']);
 
 gulp.task('traceur', function () {
   return gulp.src(paths.scripts)
-    .pipe(traceur({sourceMap: true, modules: 'amd'}))
+    .pipe(traceur({sourceMap: true, modules: 'amd', experimental: true}))
     .pipe(gulp.dest('dist'))
     .pipe(livereload())
 });
