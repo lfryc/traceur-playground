@@ -1,4 +1,6 @@
 // Profile.js
-export var firstName = 'Lukas';
-export var lastName = 'Fryc';
-export var year = 15;
+export var profile = {
+    firstName: 'Lukas',
+    lastName: 'Fryc',
+    year: 27
+};

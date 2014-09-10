@@ -1,6 +1,6 @@
 // ProfileView.js
-import {firstName, lastName, year} from './Profile';
+import {profile} from './Profile';
 
 export function setHeader(element) {
-  element.textContent = firstName + ' ' + lastName + ' (' + year + ')';
+  element.textContent = profile.firstName + ' ' + profile.lastName + ' (' + profile.year + ')';
 }
