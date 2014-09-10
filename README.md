@@ -1,4 +1,4 @@
-# Traceur Playground [![Build Status](https://travis-ci.org/lfryc/traceur-playground.png?branch=master)](https://travis-ci.org/lfryc/traceur-playground) [![devDependency Status](https://david-dm.org/lfryc/traceur-playground/dev-status.png)](https://david-dm.org/lfryc/traceur-playground#info=devDependencies) #
+# Traceur Playground [![Build Status](https://travis-ci.org/lfryc/traceur-playground.png?branch=master)](https://travis-ci.org/lfryc/traceur-playground) [![Dependency Status](https://david-dm.org/lfryc/traceur-playground.png)](https://david-dm.org/lfryc/traceur-playground) [![devDependency Status](https://david-dm.org/lfryc/traceur-playground/dev-status.png)](https://david-dm.org/lfryc/traceur-playground#info=devDependencies) #
 
 > A playground for testing ES6 and Traceur features.
 
