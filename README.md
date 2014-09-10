@@ -26,6 +26,13 @@ For continuous testing, just run:
 
     karma start
 
+## How to Play?
+
+1. Define module in `src/` folder.
+2. Define test in `test` folder.
+
+For inspiration, go to those folders and inspect existing sources.
+
 
 ## License ##
 
