@@ -1,24 +1,25 @@
 {
-    "name": "test-2",
-    "version": "1.0.0",
-    "description": "",
-    "main": "gulpfile.js",
-    "dependencies": {
-        "gulp": "^3.8.0",
-        "gulp-livereload": "^2.1.0",
-        "gulp-traceur": "^0.7.0"
-    },
+  "name": "test-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.0",
+    "gulp-livereload": "^2.1.0",
+    "gulp-traceur": "^0.7.0"
+  },
   "devDependencies": {
     "karma": "~0.12",
+    "karma-chrome-launcher": "~0.1",
     "karma-cli": "~0.0.4",
-    "karma-requirejs": "~0.2.1",
-    "karma-traceur-preprocessor": "~0.1",
     "karma-jasmine": "~0.1",
-    "karma-chrome-launcher": "~0.1"
+    "karma-requirejs": "~0.2.1",
+    "karma-spec-reporter": "0.0.13",
+    "karma-traceur-preprocessor": "~0.1"
   },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
