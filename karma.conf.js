@@ -9,7 +9,7 @@ module.exports = function(config) {
 
 
     // frameworks to use
-    frameworks: ['jasmine', 'requirejs', 'traceur'],
+    frameworks: ['jasmine', 'requirejs', 'traceur', 'phantomjs'],
 
     preprocessors: {
       'src/**/*.js': ['traceur'],
@@ -66,7 +66,21 @@ module.exports = function(config) {
     // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
     // - PhantomJS
     // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS_custom'],
+
+    // you can define custom flags
+    customLaunchers: {
+      'PhantomJS_custom': {
+        base: 'PhantomJS',
+        options: {
+          windowName: 'my-window',
+          settings: {
+            webSecurityEnabled: false
+          }
+        }
+        //flags: ['--remote-debugger-port=9000']
+      }
+    },
 
 
     // If browser does not capture in given timeout [ms], kill it
