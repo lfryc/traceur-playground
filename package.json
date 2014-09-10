@@ -1,7 +1,7 @@
 {
-  "name": "test-2",
-  "version": "1.0.0",
-  "description": "",
+  "name": "traceur-playground",
+  "version": "0.0.1",
+  "description": "A playground for testing ES6 and Traceur features.",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.8.0",
