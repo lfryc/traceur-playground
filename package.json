@@ -6,7 +6,8 @@
   "dependencies": {
     "gulp": "^3.8.0",
     "gulp-livereload": "^2.1.0",
-    "gulp-traceur": "^0.7.0"
+    "gulp-traceur": "^0.13.0",
+    "traceur": "0.0.58"
   },
   "devDependencies": {
     "karma": "~0.12",
@@ -15,7 +16,7 @@
     "karma-jasmine": "~0.1",
     "karma-requirejs": "~0.2.1",
     "karma-spec-reporter": "0.0.13",
-    "karma-traceur-preprocessor": "~0.1"
+    "karma-traceur-preprocessor": "~0.3.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
